@@ -6,6 +6,11 @@
 const $ = (s) => document.querySelector(s);
 const sortById = (a, b) => a.id.localeCompare(b.id);
 const HINT_CLOSED = "tap to reveal · double-tap for a new word";
+// external links shown at the foot of the revealed card (edit / reorder freely)
+const CARD_LINKS = [
+  { label: "🔊 pronunciation (Forvo)", site: "Forvo", url: (w) => `https://forvo.com/word/${encodeURIComponent(w)}/#ja` },
+  { label: "📖 look up on Jisho", site: "Jisho", url: (w) => `https://jisho.org/search/${encodeURIComponent(w)}` },
+];
 
 (async () => {
   const word = $("#word"),
@@ -76,6 +81,19 @@ const HINT_CLOSED = "tap to reveal · double-tap for a new word";
       t.replaceWith(wrap);
       wrap.appendChild(t);
     });
+    // external links at the foot of the card
+    const links = document.createElement("div");
+    links.className = "card-links";
+    for (const L of CARD_LINKS) {
+      const a = document.createElement("a");
+      a.href = L.url(current.word);
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.setAttribute("aria-label", `${current.word} on ${L.site} (opens in a new tab)`);
+      a.innerHTML = `<span>${L.label} ↗</span>`;
+      links.appendChild(a);
+    }
+    panel.appendChild(links);
     panel.classList.remove("hidden");
     word.setAttribute("aria-expanded", "true");
     hint.textContent = "tap again to fold";
