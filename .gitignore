@@ -1,0 +1,10 @@
+node_modules/
+.env
+.DS_Store
+
+# the build pipeline + working docs (kept local, not published)
+scripts/
+plan.md
+Developers.md
+.env.example
+assets/prototype.html

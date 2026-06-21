@@ -1,0 +1,1550 @@
+[
+  {
+    "id": "01556739",
+    "word": "貨幣",
+    "reading": "かへい, kahei",
+    "meaning": "money, currency, coinage (as an economic/conceptual unit)"
+  },
+  {
+    "id": "01cea78a",
+    "word": "弊害",
+    "reading": "heigai",
+    "meaning": "Harmful effect, negative consequence, evil, ill effect"
+  },
+  {
+    "id": "026c35f8",
+    "word": "農漁村",
+    "reading": "のうぎょそん",
+    "meaning": "farming and fishing villages; rural communities engaged in agriculture and fishing (collective term)"
+  },
+  {
+    "id": "027ba813",
+    "word": "暗闇",
+    "reading": "kurayami",
+    "meaning": "Darkness, the dark, pitch darkness"
+  },
+  {
+    "id": "03a125ab",
+    "word": "なお",
+    "reading": "nao",
+    "meaning": "Still, yet, furthermore, in addition, by the way"
+  },
+  {
+    "id": "0459b2d5",
+    "word": "海藻",
+    "reading": "kaisō",
+    "meaning": "Seaweed, marine algae"
+  },
+  {
+    "id": "04c9b0b9",
+    "word": "それゆえに",
+    "reading": "それゆえに",
+    "meaning": "therefore, for that reason, consequently, hence"
+  },
+  {
+    "id": "066b3377",
+    "word": "というよりもむしろ",
+    "reading": "to iu yori mo mushiro",
+    "meaning": "Rather than saying..., more accurately..., or rather..., instead of..."
+  },
+  {
+    "id": "068843b7",
+    "word": "改革",
+    "reading": "kaikaku",
+    "meaning": "Reform, reformation, innovation, revolution"
+  },
+  {
+    "id": "06d6123b",
+    "word": "～には及ばない",
+    "reading": "ni wa oyobanai",
+    "meaning": "(1) there's no need to ~; it's not necessary to ~; (2) to not match up to ~; to fall short of ~"
+  },
+  {
+    "id": "08891405",
+    "word": "～がたい",
+    "reading": "gatai",
+    "meaning": "hard to ~, difficult to ~, almost impossible to ~"
+  },
+  {
+    "id": "09c0b703",
+    "word": "常識",
+    "reading": "じょうしき",
+    "meaning": "common sense, common knowledge, social common sense (what any reasonable member of society is expected to know or do)"
+  },
+  {
+    "id": "0a4f2ecb",
+    "word": "重量",
+    "reading": "jūryō",
+    "meaning": "Weight, heaviness"
+  },
+  {
+    "id": "0bb5617f",
+    "word": "釣り合い",
+    "reading": "tsuriai",
+    "meaning": "Balance, equilibrium, harmony, match, compatibility"
+  },
+  {
+    "id": "0d9e5973",
+    "word": "監禁",
+    "reading": "kankin",
+    "meaning": "Confinement, detention, imprisonment, unlawful restraint"
+  },
+  {
+    "id": "0fe26d17",
+    "word": "断片",
+    "reading": "danpen",
+    "meaning": "Fragment, piece, bit, shard"
+  },
+  {
+    "id": "131a7f87",
+    "word": "配慮",
+    "reading": "はいりょ",
+    "meaning": "consideration, thoughtfulness, care, concern (actively giving thought to others' needs or a situation's sensitivities)"
+  },
+  {
+    "id": "14dd73a9",
+    "word": "残余",
+    "reading": "ざんよ",
+    "meaning": "remainder, remnant, residue, the rest (what is left over after part is removed or used)"
+  },
+  {
+    "id": "15660477",
+    "word": "神話",
+    "reading": "shinwa",
+    "meaning": "Myth, mythology, legend (involving gods)"
+  },
+  {
+    "id": "1637a4bc",
+    "word": "雇用主",
+    "reading": "こようぬし",
+    "meaning": "employer — the person or organization that hires and pays workers"
+  },
+  {
+    "id": "17adfceb",
+    "word": "潮干狩り",
+    "reading": "shiohigari",
+    "meaning": "Clamming, shellfish gathering at low tide"
+  },
+  {
+    "id": "18390b3b",
+    "word": "たとえば",
+    "reading": "tatoeba",
+    "meaning": "For example, for instance, such as"
+  },
+  {
+    "id": "1863c975",
+    "word": "築く",
+    "reading": "きずく",
+    "meaning": "to build, to construct, to establish, to build up (over time)"
+  },
+  {
+    "id": "18651d66",
+    "word": "表す",
+    "reading": "あらわす",
+    "meaning": "to express, to represent, to signify, to stand for"
+  },
+  {
+    "id": "18afc43a",
+    "word": "意思",
+    "reading": "いし",
+    "meaning": "intention, thought, mind, what one means/wants (one's view or wishes on a matter)"
+  },
+  {
+    "id": "190d5ef7",
+    "word": "また",
+    "reading": "又, mata",
+    "meaning": "again; also, too; furthermore, moreover"
+  },
+  {
+    "id": "19402db9",
+    "word": "とかく",
+    "reading": "tokaku",
+    "meaning": "Apt to, tend to, be prone to, in any case, anyhow"
+  },
+  {
+    "id": "1a681e88",
+    "word": "配列",
+    "reading": "はいれつ",
+    "meaning": "arrangement, ordering, sequence; also array (in computing/programming)"
+  },
+  {
+    "id": "1bf44ebe",
+    "word": "関心",
+    "reading": "kanshin",
+    "meaning": "Interest, concern, attention"
+  },
+  {
+    "id": "1c95519b",
+    "word": "抜群",
+    "reading": "batsugun",
+    "meaning": "Outstanding, exceptional, preeminent, excellent"
+  },
+  {
+    "id": "1ee90bfd",
+    "word": "獲得競争",
+    "reading": "かくとくきょうそう",
+    "meaning": "a competition to acquire/secure something; an acquisition race; a battle to win (talent, customers, market share, votes, etc.)"
+  },
+  {
+    "id": "208e6575",
+    "word": "厄介",
+    "reading": "やっかい",
+    "meaning": "troublesome, burdensome, annoying; a hassle, a nuisance; being in someone's care"
+  },
+  {
+    "id": "21afc9f5",
+    "word": "感化",
+    "reading": "kanka",
+    "meaning": "Influence, inspiration, being influenced"
+  },
+  {
+    "id": "22678fcf",
+    "word": "伴う",
+    "reading": "tomonau",
+    "meaning": "To accompany, to be accompanied by, to involve, to entail"
+  },
+  {
+    "id": "2318b53e",
+    "word": "観点",
+    "reading": "かんてん",
+    "meaning": "viewpoint, perspective, standpoint, angle"
+  },
+  {
+    "id": "236dc527",
+    "word": "打算的",
+    "reading": "dasanteki",
+    "meaning": "Calculating, self-serving, mercenary"
+  },
+  {
+    "id": "239faedd",
+    "word": "大使",
+    "reading": "たいし",
+    "meaning": "ambassador (the highest-ranking diplomat representing a country at an embassy)"
+  },
+  {
+    "id": "23aad759",
+    "word": "肯定",
+    "reading": "こうてい",
+    "meaning": "affirmation, approval, acknowledgment (that something is true or valid)"
+  },
+  {
+    "id": "2551d293",
+    "word": "紛れもなく",
+    "reading": "magiremonaku",
+    "meaning": "Unmistakably, undoubtedly, without a doubt, clearly"
+  },
+  {
+    "id": "25a11c80",
+    "word": "要素",
+    "reading": "ようそ",
+    "meaning": "element, component, factor, constituent (one of the essential parts that make up a whole)"
+  },
+  {
+    "id": "25c7eb88",
+    "word": "貧困",
+    "reading": "ひんこん, hinkon",
+    "meaning": "poverty, destitution; (figurative) lack, scarcity, paucity"
+  },
+  {
+    "id": "26bcd469",
+    "word": "対立",
+    "reading": "tairitsu",
+    "meaning": "Confrontation, opposition, conflict, rivalry"
+  },
+  {
+    "id": "29a78e39",
+    "word": "やがて",
+    "reading": "yagate",
+    "meaning": "Before long, soon, eventually, presently, in due course"
+  },
+  {
+    "id": "2a2b2397",
+    "word": "本来",
+    "reading": "honrai",
+    "meaning": "Originally, inherently, by nature, properly speaking"
+  },
+  {
+    "id": "2abf3aee",
+    "word": "演じる",
+    "reading": "enjiru",
+    "meaning": "To play (a role), to perform, to act"
+  },
+  {
+    "id": "2b078f35",
+    "word": "矛盾",
+    "reading": "むじゅん",
+    "meaning": "contradiction, inconsistency, paradox"
+  },
+  {
+    "id": "2b1d6cd6",
+    "word": "鵜呑みにする",
+    "reading": "うのみにする",
+    "meaning": "to swallow whole, to accept/believe uncritically, to take at face value without questioning"
+  },
+  {
+    "id": "2b5ec87e",
+    "word": "否定",
+    "reading": "hitei",
+    "meaning": "Denial, negation, rejection"
+  },
+  {
+    "id": "2b96353f",
+    "word": "たる",
+    "reading": "taru",
+    "meaning": "Being, as befitting, worthy of being (formal/literary)"
+  },
+  {
+    "id": "2b9eb3a3",
+    "word": "賑わう",
+    "reading": "nigiwau",
+    "meaning": "To be bustling, to be lively, to prosper, to thrive"
+  },
+  {
+    "id": "2c9b41f8",
+    "word": "極貧層",
+    "reading": "ごくひんそう, gokuhinsō",
+    "meaning": "the extremely poor, the destitute class, people living in extreme poverty"
+  },
+  {
+    "id": "2e8f4776",
+    "word": "筆者",
+    "reading": "hissha",
+    "meaning": "Writer, author (of this article/text)"
+  },
+  {
+    "id": "34129b35",
+    "word": "もはや",
+    "reading": "mohaya",
+    "meaning": "Already, no longer, now, by now, at this point"
+  },
+  {
+    "id": "35a9a0a2",
+    "word": "発展途上国",
+    "reading": "はってんとじょうこく, hattentojōkoku",
+    "meaning": "developing country, developing nation"
+  },
+  {
+    "id": "37702180",
+    "word": "画期的",
+    "reading": "かっきてき",
+    "meaning": "epoch-making, groundbreaking, revolutionary, era-defining"
+  },
+  {
+    "id": "37803fb3",
+    "word": "〜に足る",
+    "reading": "にたる, ni taru",
+    "meaning": "to be worth ~ing, to be sufficient/enough to ~, to deserve ~"
+  },
+  {
+    "id": "3af50a52",
+    "word": "道徳教育",
+    "reading": "dōtoku kyōiku",
+    "meaning": "Moral education, ethics education, character education"
+  },
+  {
+    "id": "3ce3494f",
+    "word": "法則",
+    "reading": "ほうそく",
+    "meaning": "law (of nature/science), rule, principle (a consistent, universal regularity)"
+  },
+  {
+    "id": "3d251f85",
+    "word": "凝りつく/凝り固まる Related Forms",
+    "reading": "",
+    "meaning": "To freeze, to stiffen, to become rigid"
+  },
+  {
+    "id": "3ddb0cda",
+    "word": "自明",
+    "reading": "jimei",
+    "meaning": "Self-evident, obvious, axiomatic, clear"
+  },
+  {
+    "id": "3ef9d19f",
+    "word": "尊重",
+    "reading": "sonchō",
+    "meaning": "Respect, esteem, regard"
+  },
+  {
+    "id": "3f177c8b",
+    "word": "がてら",
+    "reading": "gatera",
+    "meaning": "While doing ~, on the occasion of ~, taking the opportunity to ~"
+  },
+  {
+    "id": "3f20cc5a",
+    "word": "規範",
+    "reading": "kihan",
+    "meaning": "Norm, standard, model, criterion"
+  },
+  {
+    "id": "3f3dd959",
+    "word": "いやおうなく",
+    "reading": "iyaō naku",
+    "meaning": "Whether one likes it or not, inevitably, willy-nilly, regardless"
+  },
+  {
+    "id": "3f7d40f3",
+    "word": "破壊",
+    "reading": "はかい",
+    "meaning": "destruction, demolition, breaking down"
+  },
+  {
+    "id": "3fe1cb18",
+    "word": "有罪",
+    "reading": "yūzai",
+    "meaning": "Guilty, guilt (legal verdict)"
+  },
+  {
+    "id": "40313336",
+    "word": "行間",
+    "reading": "gyōkan",
+    "meaning": "Space between lines; what is implied (reading between the lines)"
+  },
+  {
+    "id": "404e27b3",
+    "word": "仮定",
+    "reading": "かてい",
+    "meaning": "assumption, supposition, hypothesis, premise (taking something as true for the sake of argument or reasoning)"
+  },
+  {
+    "id": "4059ade9",
+    "word": "疲労",
+    "reading": "hirō",
+    "meaning": "Fatigue, exhaustion, weariness"
+  },
+  {
+    "id": "40b9d4d7",
+    "word": "外貨",
+    "reading": "がいか, gaika",
+    "meaning": "foreign currency, foreign exchange; (by extension) foreign capital/earnings"
+  },
+  {
+    "id": "41d5e0b8",
+    "word": "幸福",
+    "reading": "kōfuku",
+    "meaning": "Happiness, well-being, blessing, good fortune"
+  },
+  {
+    "id": "4267e9eb",
+    "word": "どころか",
+    "reading": "dokoro ka",
+    "meaning": "Far from, let alone, not to mention, on the contrary"
+  },
+  {
+    "id": "43409e7f",
+    "word": "相違",
+    "reading": "sōi",
+    "meaning": "Difference, discrepancy, variation"
+  },
+  {
+    "id": "441d1140",
+    "word": "統括",
+    "reading": "とうかつ",
+    "meaning": "overall control, general supervision, oversight, integration (of multiple elements under one authority)"
+  },
+  {
+    "id": "44ac5e00",
+    "word": "仮面",
+    "reading": "kamen",
+    "meaning": "Mask, disguise, false front"
+  },
+  {
+    "id": "4555ee12",
+    "word": "焦ってる",
+    "reading": "asetteru",
+    "meaning": "To be impatient, to be anxious, to be flustered, to be in a hurry"
+  },
+  {
+    "id": "45d3dd14",
+    "word": "善良",
+    "reading": "zenryou",
+    "meaning": "Good-natured, virtuous, honest and gentle in character"
+  },
+  {
+    "id": "46155c22",
+    "word": "なめらか",
+    "reading": "nameraka",
+    "meaning": "Smooth, silky, sleek"
+  },
+  {
+    "id": "4616bd0b",
+    "word": "配属",
+    "reading": "はいぞく",
+    "meaning": "assignment, posting, allocation (of personnel to a department, unit, or location)"
+  },
+  {
+    "id": "4631fa6c",
+    "word": "還元",
+    "reading": "かんげん",
+    "meaning": "returning to an original state, giving back, restoration; also reduction (in chemistry — the opposite of oxidation)"
+  },
+  {
+    "id": "47003ab2",
+    "word": "心身",
+    "reading": "shinshin",
+    "meaning": "Mind and body, mental and physical"
+  },
+  {
+    "id": "472eb404",
+    "word": "吸収",
+    "reading": "kyūshū",
+    "meaning": "Absorption, assimilation, take-up"
+  },
+  {
+    "id": "47fd91c8",
+    "word": "責務",
+    "reading": "sekimu",
+    "meaning": "Duty, obligation, responsibility, mission"
+  },
+  {
+    "id": "4918d3a4",
+    "word": "蓄積",
+    "reading": "chikuseki",
+    "meaning": "Accumulation, storage, buildup"
+  },
+  {
+    "id": "4982ed19",
+    "word": "格好",
+    "reading": "kakkou",
+    "meaning": "Appearance, shape, form; style, outfit; suitable, proper"
+  },
+  {
+    "id": "4a0921b2",
+    "word": "示す",
+    "reading": "しめす",
+    "meaning": "to show, to indicate, to point out, to demonstrate"
+  },
+  {
+    "id": "4a55ffbc",
+    "word": "冒す",
+    "reading": "okasu",
+    "meaning": "To brave, to defy, to risk; to violate, to desecrate; to afflict (disease)"
+  },
+  {
+    "id": "4b446479",
+    "word": "因果関係",
+    "reading": "いんがかんけい",
+    "meaning": "causal relationship, cause-and-effect relationship, causation"
+  },
+  {
+    "id": "4b92816d",
+    "word": "〜に留まる / 〜にとどまる",
+    "reading": "にとどまる, ni todomaru",
+    "meaning": "to be limited to ~, to stop/remain at ~, to be confined to ~"
+  },
+  {
+    "id": "5118f642",
+    "word": "実証",
+    "reading": "じっしょう",
+    "meaning": "empirical proof, demonstration, verification, substantiation (proving something through evidence or experiment)"
+  },
+  {
+    "id": "53068260",
+    "word": "無頓着",
+    "reading": "mutonchaku",
+    "meaning": "Indifferent, unconcerned, careless, nonchalant"
+  },
+  {
+    "id": "53cc30b6",
+    "word": "構成",
+    "reading": "こうせい",
+    "meaning": "composition, structure, configuration, makeup, organization (the way parts are put together to form a whole)"
+  },
+  {
+    "id": "5a236e3b",
+    "word": "しなやか",
+    "reading": "shinayaka",
+    "meaning": "Supple, flexible, lithe, graceful"
+  },
+  {
+    "id": "5c8f66fa",
+    "word": "羽目を外す",
+    "reading": "はめをはずす",
+    "meaning": "To go overboard, to get carried away, to let loose, to go too far"
+  },
+  {
+    "id": "5cb3dcda",
+    "word": "投与",
+    "reading": "とうよ",
+    "meaning": "administration (of medicine/drugs), dosing, giving (medication to a patient)"
+  },
+  {
+    "id": "5d3a32ce",
+    "word": "非難を浴びる",
+    "reading": "hinan wo abiru",
+    "meaning": "To face criticism, to be showered with blame, to come under fire"
+  },
+  {
+    "id": "5ddc4dd4",
+    "word": "慣習",
+    "reading": "かんしゅう",
+    "meaning": "custom, convention, established practice, usage (a behavior or rule that has become settled through long repetition in a society or group)"
+  },
+  {
+    "id": "5fb53c92",
+    "word": "推定",
+    "reading": "suitei",
+    "meaning": "Estimation, presumption, inference"
+  },
+  {
+    "id": "612bfa77",
+    "word": "極める",
+    "reading": "kiwameru",
+    "meaning": "To master, to perfect, to carry to extremes, to investigate thoroughly"
+  },
+  {
+    "id": "62aad83a",
+    "word": "群れ",
+    "reading": "mure",
+    "meaning": "Group, herd, flock, swarm, pack"
+  },
+  {
+    "id": "6321c6c8",
+    "word": "慌ててる",
+    "reading": "awatetteru",
+    "meaning": "To be flustered, to be in a panic, to be confused"
+  },
+  {
+    "id": "634dfbcd",
+    "word": "偏狭",
+    "reading": "へんきょう",
+    "meaning": "narrow-minded, intolerant, bigoted; narrow and cramped (of space, though rare)"
+  },
+  {
+    "id": "63548144",
+    "word": "ゆとりがある",
+    "reading": "yutori ga aru",
+    "meaning": "To have room/space, to have leeway, to have margin, to have comfort, to be relaxed"
+  },
+  {
+    "id": "6563474a",
+    "word": "副次的",
+    "reading": "fukujiteki",
+    "meaning": "Secondary, incidental, subordinate, auxiliary"
+  },
+  {
+    "id": "6564bfb0",
+    "word": "または",
+    "reading": "又は, mata wa",
+    "meaning": "or, alternatively, either"
+  },
+  {
+    "id": "6b14f4a6",
+    "word": "金銭",
+    "reading": "きんせん, kinsen",
+    "meaning": "money, cash, monetary matters"
+  },
+  {
+    "id": "6ce77738",
+    "word": "展開",
+    "reading": "てんかい",
+    "meaning": "development, unfolding, evolution (of events); expansion, deployment, spreading out; also expansion in mathematics (e.g., expanding an expression)"
+  },
+  {
+    "id": "6d35f3a6",
+    "word": "意義",
+    "reading": "いぎ",
+    "meaning": "significance, import, meaning (in the sense of worth/value), purpose"
+  },
+  {
+    "id": "6db81e5d",
+    "word": "強いる",
+    "reading": "しいる, shiiru",
+    "meaning": "to force, compel, coerce; to impose (something on someone)"
+  },
+  {
+    "id": "6e2d5e4e",
+    "word": "戦闘",
+    "reading": "sentou",
+    "meaning": "Combat, battle, fighting"
+  },
+  {
+    "id": "6e389982",
+    "word": "生息",
+    "reading": "せいそく",
+    "meaning": "to inhabit, to live (as a habitat — used for animals); habitation, existence in a natural environment"
+  },
+  {
+    "id": "6e3ef4ea",
+    "word": "要旨",
+    "reading": "yōshi",
+    "meaning": "Gist, summary, main point, essence, outline"
+  },
+  {
+    "id": "6f5378e5",
+    "word": "塗る",
+    "reading": "nuru",
+    "meaning": "To paint, to spread on, to apply, to smear"
+  },
+  {
+    "id": "6f92a002",
+    "word": "息苦しい",
+    "reading": "ikigurushii",
+    "meaning": "Suffocating, stifling, oppressive, breathless"
+  },
+  {
+    "id": "6fa46f41",
+    "word": "荒廃",
+    "reading": "kōhai",
+    "meaning": "Desolation, devastation, ruin, decay"
+  },
+  {
+    "id": "6fb9be24",
+    "word": "お越し",
+    "reading": "おこし",
+    "meaning": "(honorific) coming, going, visiting — the respectful word for someone's \"coming\" or \"going,\" used most in お越しください (\"please come\")"
+  },
+  {
+    "id": "70e09a9e",
+    "word": "双方",
+    "reading": "sōhō",
+    "meaning": "Both sides, both parties, mutual"
+  },
+  {
+    "id": "74d351d9",
+    "word": "生まれながらに",
+    "reading": "umarenagara ni",
+    "meaning": "From birth, by nature, innately, naturally"
+  },
+  {
+    "id": "77044646",
+    "word": "赴任",
+    "reading": "ふにん",
+    "meaning": "taking up a new post, proceeding to one's new assignment (often involving relocation)"
+  },
+  {
+    "id": "772d0e7c",
+    "word": "重んじる",
+    "reading": "omonjiru",
+    "meaning": "To value, to esteem, to respect, to regard as important, to attach importance to"
+  },
+  {
+    "id": "778ff262",
+    "word": "非行",
+    "reading": "ひこう",
+    "meaning": "delinquency, misconduct, misbehavior — especially juvenile delinquency"
+  },
+  {
+    "id": "7872e0ed",
+    "word": "増し",
+    "reading": "mashi",
+    "meaning": "Better, preferable, more (comparative)"
+  },
+  {
+    "id": "7a4e0885",
+    "word": "循環",
+    "reading": "junkan",
+    "meaning": "Circulation, cycle, loop"
+  },
+  {
+    "id": "7ab4fa84",
+    "word": "主体性",
+    "reading": "shutaisei",
+    "meaning": "Independence, autonomy, initiative, self-reliance, subjectivity"
+  },
+  {
+    "id": "7b84f486",
+    "word": "温暖　おんだん",
+    "reading": "おんだん",
+    "meaning": "warm, mild, temperate (of climate or weather)"
+  },
+  {
+    "id": "7b9eb180",
+    "word": "～がち",
+    "reading": "gachi",
+    "meaning": "tends to ~, apt to ~, prone to ~, often ~ (usually with negative connotation)"
+  },
+  {
+    "id": "7e8e7b4e",
+    "word": "煽る",
+    "reading": "aoru",
+    "meaning": "To fan, to agitate, to incite, to instigate, to provoke; to tailgate"
+  },
+  {
+    "id": "7edc04cb",
+    "word": "違和感を覚える",
+    "reading": "iwakan wo oboeru",
+    "meaning": "To feel uncomfortable, to sense something is off, to feel a sense of incongruity"
+  },
+  {
+    "id": "7f76c19e",
+    "word": "省みる",
+    "reading": "かえりみる",
+    "meaning": "to reflect on, to look back on, to examine (oneself or one's actions)"
+  },
+  {
+    "id": "80f95ea5",
+    "word": "報道",
+    "reading": "houdou",
+    "meaning": "News report, reporting, press coverage"
+  },
+  {
+    "id": "82c8503c",
+    "word": "意志",
+    "reading": "いし",
+    "meaning": "will, willpower, volition, determination, resolve"
+  },
+  {
+    "id": "839449dc",
+    "word": "競技",
+    "reading": "きょうぎ",
+    "meaning": "competition, (athletic) event, contest, sport, match"
+  },
+  {
+    "id": "845ca1c3",
+    "word": "志向性",
+    "reading": "shikōsei",
+    "meaning": "Orientation, tendency, inclination, directionality"
+  },
+  {
+    "id": "848d16ee",
+    "word": "激減",
+    "reading": "gekigen",
+    "meaning": "Drastic decrease, sharp decline, plunge"
+  },
+  {
+    "id": "86878053",
+    "word": "神秘",
+    "reading": "しんぴ",
+    "meaning": "mystery, mystique, the mystical, the occult, something profoundly inexplicable"
+  },
+  {
+    "id": "8722c040",
+    "word": "判然",
+    "reading": "hanzen",
+    "meaning": "Clear, distinct, obvious, evident"
+  },
+  {
+    "id": "876997d4",
+    "word": "極上",
+    "reading": "gokujō",
+    "meaning": "Finest, supreme, top-quality, superb, exquisite"
+  },
+  {
+    "id": "88326119",
+    "word": "おそらく",
+    "reading": "osoraku",
+    "meaning": "Probably, perhaps, most likely, presumably"
+  },
+  {
+    "id": "884f974a",
+    "word": "尺度",
+    "reading": "しゃくど, shakudo",
+    "meaning": "scale, measure, standard, yardstick; (figurative) criterion for judgment"
+  },
+  {
+    "id": "8b693f0e",
+    "word": "目を見張るものがある",
+    "reading": "めをみはるものがある",
+    "meaning": "to be remarkable/striking, there's something impressive about it, it's eye-opening, it commands admiration"
+  },
+  {
+    "id": "8dee691b",
+    "word": "主張",
+    "reading": "しゅちょう",
+    "meaning": "assertion, claim, insistence, contention, argument (a position one puts forward and stands behind)"
+  },
+  {
+    "id": "8df62ea8",
+    "word": "欠如",
+    "reading": "けつじょ",
+    "meaning": "lack, deficiency, absence (of something essential)"
+  },
+  {
+    "id": "8fa33075",
+    "word": "自覚",
+    "reading": "jikaku",
+    "meaning": "Self-awareness, consciousness, realization, sense of responsibility"
+  },
+  {
+    "id": "91ab7202",
+    "word": "混雑",
+    "reading": "こんざつ",
+    "meaning": "Congestion, crowding, heavy traffic, jam"
+  },
+  {
+    "id": "93ba89e9",
+    "word": "良心",
+    "reading": "ryoushin",
+    "meaning": "Conscience, moral sense"
+  },
+  {
+    "id": "95987769",
+    "word": "～に応じて",
+    "reading": "〜におうじて",
+    "meaning": "in accordance with, depending on, corresponding to, in response to"
+  },
+  {
+    "id": "97afea73",
+    "word": "善人",
+    "reading": "zennin",
+    "meaning": "A good person, a virtuous person, a person of good character"
+  },
+  {
+    "id": "97cbcb7d",
+    "word": "あえて",
+    "reading": "aete",
+    "meaning": "Dare to, deliberately, boldly, go out of one's way to"
+  },
+  {
+    "id": "97e2324a",
+    "word": "必ずしも",
+    "reading": "かならずしも",
+    "meaning": "not necessarily, not always, not entirely"
+  },
+  {
+    "id": "99d1cc74",
+    "word": "傾く",
+    "reading": "katamuku",
+    "meaning": "To lean, to tilt, to incline, to decline (financially)"
+  },
+  {
+    "id": "9b49fca9",
+    "word": "かえって",
+    "reading": "kaette",
+    "meaning": "On the contrary, rather, instead, all the more"
+  },
+  {
+    "id": "9b8b569b",
+    "word": "平凡",
+    "reading": "heibon",
+    "meaning": "Ordinary, common, mediocre, commonplace"
+  },
+  {
+    "id": "9b9b691d",
+    "word": "拘束",
+    "reading": "kōsoku",
+    "meaning": "Restraint, restriction, binding, detention"
+  },
+  {
+    "id": "9bdec68c",
+    "word": "虐待",
+    "reading": "gyakutai",
+    "meaning": "Abuse, maltreatment, ill-treatment"
+  },
+  {
+    "id": "9fc56bc1",
+    "word": "模倣",
+    "reading": "mohō",
+    "meaning": "Imitation, mimicry, copying"
+  },
+  {
+    "id": "a084ce6d",
+    "word": "当然",
+    "reading": "tōzen",
+    "meaning": "Natural, obvious, as a matter of course, naturally"
+  },
+  {
+    "id": "a0c3ad05",
+    "word": "要求",
+    "reading": "yōkyū",
+    "meaning": "Demand, request, requirement, claim"
+  },
+  {
+    "id": "a0f77da3",
+    "word": "連鎖",
+    "reading": "れんさ",
+    "meaning": "Chain, linkage, sequence, chain reaction"
+  },
+  {
+    "id": "a1f143d0",
+    "word": "かといって",
+    "reading": "かといって",
+    "meaning": "but then, that said, but that doesn't mean, even so... (it's not like)"
+  },
+  {
+    "id": "a2733487",
+    "word": "無礼講",
+    "reading": "ぶれいこう",
+    "meaning": "Putting aside rank/formality, informal gathering, \"anything goes\" party"
+  },
+  {
+    "id": "a2ce746d",
+    "word": "暴き出す",
+    "reading": "abakidasu",
+    "meaning": "To expose, to uncover, to bring to light, to drag out (the truth)"
+  },
+  {
+    "id": "a2e7333b",
+    "word": "師弟関係",
+    "reading": "shitei kankei",
+    "meaning": "Master-disciple relationship, teacher-student relationship, mentor-mentee relationship"
+  },
+  {
+    "id": "a4896519",
+    "word": "ひょっとしたら・もしかしたら〜かもしれない",
+    "reading": "hyottoshitara ~ kamoshirenai",
+    "meaning": "Perhaps, maybe, possibly, it might be that..."
+  },
+  {
+    "id": "a6e03337",
+    "word": "途絶えた",
+    "reading": "todaeta",
+    "meaning": "Was interrupted, was cut off, ceased, stopped (past tense of 途絶える)"
+  },
+  {
+    "id": "a6f6e6ab",
+    "word": "すると",
+    "reading": "",
+    "meaning": "then, thereupon, and then, as a result, whereupon (suddenty, unexpectedly)"
+  },
+  {
+    "id": "a74edf73",
+    "word": "認める",
+    "reading": "mitomeru",
+    "meaning": "To recognize, to acknowledge, to admit, to approve, to perceive"
+  },
+  {
+    "id": "a76b31ca",
+    "word": "一挙手一投足",
+    "reading": "いっきょしゅいっとうそく",
+    "meaning": "Every move, every single action, one's every movement"
+  },
+  {
+    "id": "a7b9dcc3",
+    "word": "意図",
+    "reading": "ito",
+    "meaning": "Intention, intent, purpose, aim"
+  },
+  {
+    "id": "a7cc7bae",
+    "word": "否応なく",
+    "reading": "iyaō naku",
+    "meaning": "Whether one likes it or not, inevitably, willy-nilly, regardless"
+  },
+  {
+    "id": "a88ba8a3",
+    "word": "着目",
+    "reading": "chakumoku",
+    "meaning": "Attention, focus, notice, paying attention to"
+  },
+  {
+    "id": "a8eae12c",
+    "word": "刺激",
+    "reading": "shigeki",
+    "meaning": "Stimulus, stimulation, incentive, excitement"
+  },
+  {
+    "id": "a8eb8403",
+    "word": "執着",
+    "reading": "しゅうちゃく, shūchaku",
+    "meaning": "attachment, obsession, persistence, fixation, clinging (to something)"
+  },
+  {
+    "id": "a8f40344",
+    "word": "自己嫌悪",
+    "reading": "じこけんお",
+    "meaning": "self-hatred, self-loathing, self-disgust"
+  },
+  {
+    "id": "a9601762",
+    "word": "大勢",
+    "reading": "おおぜい",
+    "meaning": "many people, a large crowd, a great number of people"
+  },
+  {
+    "id": "a96ffe84",
+    "word": "野放図",
+    "reading": "のほうず",
+    "meaning": "unruly, undisciplined, reckless, unchecked, unbridled"
+  },
+  {
+    "id": "a9882048",
+    "word": "所得",
+    "reading": "しょとく, shotoku",
+    "meaning": "income, earnings (especially in the formal/taxation sense)"
+  },
+  {
+    "id": "aa67aa12",
+    "word": "しばしば",
+    "reading": "shibashiba",
+    "meaning": "often, frequently, repeatedly, time and again"
+  },
+  {
+    "id": "adad104f",
+    "word": "嘆き",
+    "reading": "nageki",
+    "meaning": "Grief, sorrow, lamentation, mourning"
+  },
+  {
+    "id": "adb9e625",
+    "word": "記者",
+    "reading": "kisha",
+    "meaning": "Reporter, journalist"
+  },
+  {
+    "id": "aed0a9f1",
+    "word": "姿勢",
+    "reading": "shisei",
+    "meaning": "Posture, attitude, stance, position"
+  },
+  {
+    "id": "af8b17dc",
+    "word": "不可解",
+    "reading": "fukakai",
+    "meaning": "Incomprehensible, mysterious, puzzling, inexplicable, unfathomable"
+  },
+  {
+    "id": "b0148454",
+    "word": "躾",
+    "reading": "shitsuke",
+    "meaning": "Discipline, training, upbringing, manners"
+  },
+  {
+    "id": "b0d9a303",
+    "word": "戒め",
+    "reading": "いましめ",
+    "meaning": "(1) admonition, warning, lesson learned; (2) precept, commandment, moral teaching; (3) caution against repeating wrongdoing"
+  },
+  {
+    "id": "b1b0a211",
+    "word": "合理",
+    "reading": "ごうり",
+    "meaning": "reason, rationality, logic (the quality of according with reason) — note: rarely used alone; appears almost entirely in compounds and derived forms"
+  },
+  {
+    "id": "b2fd47ba",
+    "word": "誇る",
+    "reading": "ほこる",
+    "meaning": "to boast of, to take pride in, to be proud of; (also) to be renowned for, to flourish"
+  },
+  {
+    "id": "b304f231",
+    "word": "危機",
+    "reading": "きき",
+    "meaning": "crisis, critical moment, emergency"
+  },
+  {
+    "id": "b31ae666",
+    "word": "上下水道",
+    "reading": "じょうげすいどう, jōge suidō",
+    "meaning": "water and sewage systems; water supply and sewerage (combined infrastructure)"
+  },
+  {
+    "id": "b4674749",
+    "word": "ようが〜まいが",
+    "reading": "yō ga ~ mai ga",
+    "meaning": "Whether or not, regardless of whether, no matter if"
+  },
+  {
+    "id": "b7a1cb88",
+    "word": "ならびに",
+    "reading": "narabi ni",
+    "meaning": "And, as well as, along with"
+  },
+  {
+    "id": "b7cfe662",
+    "word": "論じる",
+    "reading": "ronjiru",
+    "meaning": "To discuss, to debate, to argue, to discourse on"
+  },
+  {
+    "id": "b967e0bf",
+    "word": "ツケが回ってくる",
+    "reading": "tsuke ga mawatte kuru",
+    "meaning": "To face the consequences, the bill comes due, chickens come home to roost, karma catches up"
+  },
+  {
+    "id": "ba0b6241",
+    "word": "恩人",
+    "reading": "おんじん",
+    "meaning": "benefactor, patron, someone to whom one owes a deep debt of gratitude"
+  },
+  {
+    "id": "bab028b0",
+    "word": "憎い",
+    "reading": "nikui",
+    "meaning": "Hateful, detestable, odious"
+  },
+  {
+    "id": "bc549d5d",
+    "word": "引力",
+    "reading": "inryoku",
+    "meaning": "Gravity, gravitational force, attraction"
+  },
+  {
+    "id": "bcb851c3",
+    "word": "水準",
+    "reading": "すいじゅん, suijun",
+    "meaning": "level, standard, benchmark; (technical) water level, leveling instrument"
+  },
+  {
+    "id": "bcef6376",
+    "word": "層",
+    "reading": "そう",
+    "meaning": "layer, stratum, tier; (social) class, demographic segment, bracket; also a counter for layers/stories"
+  },
+  {
+    "id": "bde212a1",
+    "word": "節約",
+    "reading": "setsuyaku",
+    "meaning": "Saving, economy, conservation, thrift"
+  },
+  {
+    "id": "bf1a5da9",
+    "word": "資源",
+    "reading": "shigen",
+    "meaning": "Resources, natural resources"
+  },
+  {
+    "id": "bfdc28aa",
+    "word": "共同体",
+    "reading": "kyōdōtai",
+    "meaning": "Community, commune, collective body"
+  },
+  {
+    "id": "c1315d66",
+    "word": "褐色",
+    "reading": "kasshoku",
+    "meaning": "Brown, brownish color, tawny"
+  },
+  {
+    "id": "c38322e2",
+    "word": "疑う",
+    "reading": "utagau",
+    "meaning": "To doubt, to suspect, to question"
+  },
+  {
+    "id": "c401fee7",
+    "word": "磯",
+    "reading": "iso",
+    "meaning": "Rocky shore, rocky beach, seashore"
+  },
+  {
+    "id": "c475143b",
+    "word": "台頭",
+    "reading": "たいとう",
+    "meaning": "rise, emergence, coming to prominence, gaining power/influence"
+  },
+  {
+    "id": "c5157f1d",
+    "word": "虚実",
+    "reading": "きょじつ",
+    "meaning": "truth and falsehood, fact and fiction, reality and pretense"
+  },
+  {
+    "id": "c612f437",
+    "word": "～わけにはいかない",
+    "reading": "wake ni wa ikanai",
+    "meaning": "cannot (do) ~ (for social/moral/situational reasons); it won't do to ~; can't bring oneself to ~"
+  },
+  {
+    "id": "c656cb84",
+    "word": "追求",
+    "reading": "tsuikyū",
+    "meaning": "Pursuit, seeking after, quest for"
+  },
+  {
+    "id": "c6e92136",
+    "word": "視線に晒される",
+    "reading": "shisen ni sarasareru",
+    "meaning": "To be exposed to people's gazes, to be stared at, to be subjected to stares"
+  },
+  {
+    "id": "c77ae198",
+    "word": "ところが",
+    "reading": "tokoro ga",
+    "meaning": "However, but, contrary to expectations, unexpectedly"
+  },
+  {
+    "id": "c96198b1",
+    "word": "干潟",
+    "reading": "higata",
+    "meaning": "Tidal flat, mudflat"
+  },
+  {
+    "id": "ca4ebfd5",
+    "word": "までもない",
+    "reading": "made mo nai",
+    "meaning": "There's no need to, it goes without saying, needless to say, not necessary to"
+  },
+  {
+    "id": "ca4fb7fd",
+    "word": "あたかも",
+    "reading": "atakamo",
+    "meaning": "As if, as though, just like, exactly like"
+  },
+  {
+    "id": "cba95a3f",
+    "word": "訴える",
+    "reading": "うったえる",
+    "meaning": "to sue, to file a complaint; to appeal to (someone's emotions/reason); to complain of (pain, symptoms); to resort to (force, violence)"
+  },
+  {
+    "id": "cc4e22af",
+    "word": "習慣",
+    "reading": "shūkan",
+    "meaning": "Habit, custom, practice"
+  },
+  {
+    "id": "cf17e814",
+    "word": "ざる",
+    "reading": "zaru",
+    "meaning": "Not ~, without ~ing (classical negative)"
+  },
+  {
+    "id": "cf539cd3",
+    "word": "果たして〜だろうか",
+    "reading": "hatashite",
+    "meaning": "Really, truly, as expected; I wonder if, will it really...?"
+  },
+  {
+    "id": "cfa298cc",
+    "word": "台所",
+    "reading": "daidokoro",
+    "meaning": "Kitchen"
+  },
+  {
+    "id": "d0c19e75",
+    "word": "～ざるを得ない",
+    "reading": "zaru o enai",
+    "meaning": "cannot help but ~; have no choice but to ~; must ~ (reluctantly)"
+  },
+  {
+    "id": "d1beedd4",
+    "word": "そっくり",
+    "reading": "sokkuri",
+    "meaning": "Exactly alike, identical, spitting image; entirely, completely, all"
+  },
+  {
+    "id": "d36480e2",
+    "word": "残虐",
+    "reading": "zangyaku",
+    "meaning": "Cruelty, brutality, atrocity"
+  },
+  {
+    "id": "d458a903",
+    "word": "めったに",
+    "reading": "滅多に, mettani",
+    "meaning": "rarely, seldom, hardly ever (almost always used with a negative verb)"
+  },
+  {
+    "id": "d4cc175f",
+    "word": "握る",
+    "reading": "にぎる",
+    "meaning": "to grip, to grasp, to hold tightly; to seize (power/control); to make (sushi)"
+  },
+  {
+    "id": "d4ea62c7",
+    "word": "教授",
+    "reading": "きょうじゅ",
+    "meaning": "(1) professor (academic title); (2) teaching, instruction (the act of teaching, especially specialized knowledge or skill)"
+  },
+  {
+    "id": "d5e7a3fd",
+    "word": "不幸",
+    "reading": "fukō",
+    "meaning": "Unhappiness, misfortune, tragedy, bad luck"
+  },
+  {
+    "id": "d79cf3e2",
+    "word": "想念",
+    "reading": "sōnen",
+    "meaning": "Thought, idea, conception, mental image"
+  },
+  {
+    "id": "d7ced59f",
+    "word": "一片",
+    "reading": "ippen",
+    "meaning": "A fragment, a piece, a bit, a scrap; a single slice"
+  },
+  {
+    "id": "d8a2b9da",
+    "word": "生産性",
+    "reading": "せいさんせい",
+    "meaning": "productivity, efficiency (the rate at which output is produced relative to input — labor, time, resources)"
+  },
+  {
+    "id": "da1eedf4",
+    "word": "営み",
+    "reading": "itonami",
+    "meaning": "Activities, life, livelihood, occupation, pursuits"
+  },
+  {
+    "id": "da3ff04c",
+    "word": "というよりも〜むしろ〜",
+    "reading": "to iu yori mo ~ mushiro ~",
+    "meaning": "Rather than saying [A], more accurately [B]; or rather; instead of"
+  },
+  {
+    "id": "db56f9fd",
+    "word": "妥協",
+    "reading": "dakyō",
+    "meaning": "Compromise, concession, settlement"
+  },
+  {
+    "id": "dbe33f0b",
+    "word": "出くわす",
+    "reading": "dekuwasu",
+    "meaning": "To run into, to come across, to encounter (unexpectedly)"
+  },
+  {
+    "id": "df04305d",
+    "word": "躍起",
+    "reading": "yakki",
+    "meaning": "Desperate, frantic, frantically eager, hell-bent"
+  },
+  {
+    "id": "df85e01f",
+    "word": "多様化",
+    "reading": "tayōka",
+    "meaning": "Diversification, diversifying, becoming diverse"
+  },
+  {
+    "id": "df8d463c",
+    "word": "異議",
+    "reading": "いぎ",
+    "meaning": "Objection, dissent, protest, disagreement"
+  },
+  {
+    "id": "e067b18f",
+    "word": "すら",
+    "reading": "sura",
+    "meaning": "Even, not even, let alone"
+  },
+  {
+    "id": "e10ba3eb",
+    "word": "陥る",
+    "reading": "おちいる",
+    "meaning": "to fall into, to get caught in, to lapse into, to sink into (usually a bad state or situation)"
+  },
+  {
+    "id": "e4da9aee",
+    "word": "赤の他人",
+    "reading": "aka no tanin",
+    "meaning": "Complete stranger, total stranger, someone with no relation whatsoever"
+  },
+  {
+    "id": "e6406b06",
+    "word": "補助する",
+    "reading": "ほじょする",
+    "meaning": "to assist, to aid, to support, to supplement, to subsidize"
+  },
+  {
+    "id": "e89998bd",
+    "word": "面積",
+    "reading": "menseki",
+    "meaning": "Area, surface area"
+  },
+  {
+    "id": "ea4c75af",
+    "word": "～であろうと",
+    "reading": "であろうと",
+    "meaning": "even if it be, no matter whether, whatever/whoever it may be, regardless of"
+  },
+  {
+    "id": "ea5a692b",
+    "word": "鈍感",
+    "reading": "donkan",
+    "meaning": "Insensitivity, dullness of feeling, being thick-skinned, being oblivious"
+  },
+  {
+    "id": "ecfc48aa",
+    "word": "てっきり",
+    "reading": "tekkiri",
+    "meaning": "Surely, certainly, for sure, I was sure that..."
+  },
+  {
+    "id": "f02f74fe",
+    "word": "液",
+    "reading": "eki",
+    "meaning": "Liquid, fluid, solution"
+  },
+  {
+    "id": "f2231345",
+    "word": "習得",
+    "reading": "shūtoku",
+    "meaning": "Acquisition, mastery, learning (of skills/knowledge)"
+  },
+  {
+    "id": "f28c9578",
+    "word": "にもかかわらず",
+    "reading": "にもかかわらず",
+    "meaning": "despite, in spite of, nevertheless, notwithstanding"
+  },
+  {
+    "id": "f412e9ca",
+    "word": "しぶき",
+    "reading": "shibuki",
+    "meaning": "Spray, splash, spindrift"
+  },
+  {
+    "id": "f544edaf",
+    "word": "根底的",
+    "reading": "konteiteki",
+    "meaning": "Fundamental, basic, radical, foundational"
+  },
+  {
+    "id": "f6179ca0",
+    "word": "考慮",
+    "reading": "kōryo",
+    "meaning": "Consideration, deliberation, taking into account"
+  },
+  {
+    "id": "f61e0d13",
+    "word": "斜面",
+    "reading": "shamen",
+    "meaning": "Slope, incline, slant"
+  },
+  {
+    "id": "f6772617",
+    "word": "講演会",
+    "reading": "kōenkai",
+    "meaning": "Lecture meeting, lecture event, symposium, speaking event"
+  },
+  {
+    "id": "f73f4d81",
+    "word": "小包",
+    "reading": "kozutsumi",
+    "meaning": "Parcel, package, small package"
+  },
+  {
+    "id": "f865b680",
+    "word": "主導権",
+    "reading": "しゅどうけん",
+    "meaning": "initiative, leadership, the leading role, control (over a situation)"
+  },
+  {
+    "id": "fac9f774",
+    "word": "観念",
+    "reading": "kannen",
+    "meaning": "Idea, concept, notion; resignation, giving up"
+  },
+  {
+    "id": "fb7fda47",
+    "word": "挙",
+    "reading": "きょ",
+    "meaning": "Raise, lift up, nominate, cite, conduct, action"
+  },
+  {
+    "id": "fc414674",
+    "word": "～に基づいて",
+    "reading": "〜にもとづいて",
+    "meaning": "based on, on the basis of, grounded in, in accordance with (a rule/principle)"
+  },
+  {
+    "id": "fcfb4d60",
+    "word": "善男善女",
+    "reading": "zennan-zennyo",
+    "meaning": "Pious men and women, devout believers, good men and women"
+  },
+  {
+    "id": "fda2e2d6",
+    "word": "童話",
+    "reading": "dōwa",
+    "meaning": "Fairy tale, children's story"
+  },
+  {
+    "id": "fe93cf3b",
+    "word": "おそらく v/s 果たして v/s ひょっとしたら",
+    "reading": "ひょっとしたら",
+    "meaning": "Probably, most likely, presumably"
+  },
+  {
+    "id": "ff616d5e",
+    "word": "～にせよ",
+    "reading": "にせよ",
+    "meaning": "even if, whether ... or, no matter; granting that"
+  }
+]
