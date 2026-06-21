@@ -1,13 +1,13 @@
-// 🍓 一日一語 — word widget (Scriptable)
+// 🍓 一日一語 — daily word widget (Scriptable)
 // Paste into a new Scriptable script, add a Scriptable home-screen widget, and
 // point it at this script. Set "When Interacting → Open URL" so a tap opens the
-// site on the shown word. Shows a random word each refresh (~hourly), matching
-// the site; a tap deep-links to that exact word.
+// site on the day's word. Shows one word per day; a tap deep-links to that word.
 const BASE = "https://vbkmr.github.io/ichinichi-ichigo";
 
 const list = await new Request(`${BASE}/data/index.json`).loadJSON();
 list.sort((a, b) => a.id.localeCompare(b.id)); // same fixed order as the site
-const i = Math.floor(Math.random() * list.length); // a new word on each refresh
+const epochDay = Math.floor(Date.now() / 86400000); // changes once per day
+const i = epochDay % list.length; // one word per day
 const w = list[i];
 
 const widget = new ListWidget();
