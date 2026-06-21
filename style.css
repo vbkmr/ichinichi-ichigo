@@ -23,14 +23,18 @@ body {
   background: var(--kon-deep);
   color: var(--cream);
   font-family: var(--jp);
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center; /* center, but fall back to top when content is taller */
+  align-items: center;
   padding: 2rem 1.25rem;
+  overflow-x: hidden; /* never scroll sideways */
   -webkit-font-smoothing: antialiased;
 }
 .site {
   width: 100%;
   max-width: 560px;
+  min-width: 0; /* avoid the flex min-width:auto trap that lets content widen the page */
   text-align: center;
 }
 .hero {
@@ -50,8 +54,12 @@ body {
   font-family: var(--jp);
   font-weight: 700;
   color: var(--cream);
-  font-size: clamp(4rem, 18vw, 6.5rem);
-  line-height: 1.05;
+  font-size: clamp(2.5rem, 12vw, 5.5rem);
+  line-height: 1.12;
+  display: block;
+  width: 100%;
+  overflow-wrap: anywhere; /* long words wrap instead of overflowing */
+  word-break: break-word;
   background: none;
   border: 0;
   cursor: pointer;
@@ -94,6 +102,8 @@ body {
   background: var(--kon-panel);
   border: 1px solid var(--kon-line);
   padding: clamp(1.6rem, 5vw, 2.4rem);
+  max-width: 100%;
+  overflow-wrap: anywhere; /* long text wraps inside the card */
   opacity: 0;
   animation: fade 0.4s ease forwards;
 }
@@ -152,10 +162,15 @@ body {
   font-size: 0.9em;
   color: var(--rose);
 }
+.panel .table-wrap {
+  max-width: 100%;
+  overflow-x: auto; /* wide tables scroll inside the card, not the page */
+  -webkit-overflow-scrolling: touch;
+  margin: 0.6rem 0;
+}
 .panel table {
   width: 100%;
   border-collapse: collapse;
-  margin: 0.6rem 0;
   font-size: 0.95rem;
 }
 .panel th,

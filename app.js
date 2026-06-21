@@ -1,50 +1,63 @@
-// 🍓 一日一語 — site logic. Daily-word math must stay identical to the widget:
-// sort by id, then index = epochDay % length.
+// 🍓 一日一語 — site logic.
+// • Arriving via a widget deep-link (/#<id>) shows that exact word and keeps it
+//   on refresh — so the widget's daily word and the site stay in sync.
+// • A plain visit shows a random word, and each refresh shows a new one.
+// • Single tap reveals/folds the explanation; double tap jumps to a new word.
 const $ = (s) => document.querySelector(s);
 const sortById = (a, b) => a.id.localeCompare(b.id);
+const HINT_CLOSED = "tap to reveal · double-tap for a new word";
 
 (async () => {
+  const word = $("#word"),
+    panel = $("#panel"),
+    reading = $("#reading"),
+    meta = $("#meta"),
+    hint = $("#hint");
+
   let index;
   try {
     index = (await (await fetch("data/index.json")).json()).sort(sortById);
   } catch {
-    $("#word").textContent = "…";
-    $("#hint").textContent = "couldn't load the word list";
+    word.textContent = "…";
+    hint.textContent = "couldn't load the word list";
     return;
   }
   if (!index.length) {
-    $("#word").textContent = "🍓";
-    $("#hint").textContent = "no words yet";
+    word.textContent = "🍓";
+    hint.textContent = "no words yet";
     return;
   }
 
-  const epochDay = Math.floor(Date.now() / 86400000); // changes once per day
-  const dayIdx = epochDay % index.length;
-  const today = index[dayIdx];
-  const fromHash = location.hash.slice(1);
-  const entry = index.find((e) => e.id === fromHash) || today;
-  const entryIdx = index.indexOf(entry);
-
-  $("#word").textContent = entry.word;
-  $("#reading").textContent = entry.reading || "";
-  $("#meta").textContent = `第 ${entryIdx + 1} 日 · ${entry.meaning || ""}`;
-  document.title = `${entry.word} — 🍓 一日一語`;
-
   let full = null;
-  const panel = $("#panel");
-  const word = $("#word");
+  let current = null;
 
-  // Auto-open the explanation when the URL asks for it (e.g. a widget deep-link
-  // like /?open#<id>), so the card is one tap away.
-  if (new URLSearchParams(location.search).has("open")) {
-    queueMicrotask(() => word.click());
+  const randomIndex = (exclude) => {
+    if (index.length === 1) return 0;
+    let i;
+    do {
+      i = Math.floor(Math.random() * index.length);
+    } while (i === exclude);
+    return i;
+  };
+
+  function fold() {
+    panel.classList.add("hidden");
+    word.setAttribute("aria-expanded", "false");
+    hint.textContent = HINT_CLOSED;
   }
 
-  word.addEventListener("click", async () => {
+  function show(entry) {
+    current = entry;
+    word.textContent = entry.word;
+    reading.textContent = entry.reading || "";
+    meta.textContent = `第 ${index.indexOf(entry) + 1} 日`;
+    document.title = `${entry.word} — 🍓 一日一語`;
+    fold();
+  }
+
+  async function reveal() {
     if (!panel.classList.contains("hidden")) {
-      panel.classList.add("hidden");
-      word.setAttribute("aria-expanded", "false");
-      $("#hint").textContent = "tap the word ↑";
+      fold();
       return;
     }
     if (!full) {
@@ -54,10 +67,39 @@ const sortById = (a, b) => a.id.localeCompare(b.id);
         full = [];
       }
     }
-    const w = full.find((e) => e.id === entry.id);
+    const w = full.find((e) => e.id === current.id);
     panel.innerHTML = marked.parse(w?.explanation || "*まだ説明がありません。*");
+    // wrap tables so wide ones scroll inside the card instead of widening the page
+    panel.querySelectorAll("table").forEach((t) => {
+      const wrap = document.createElement("div");
+      wrap.className = "table-wrap";
+      t.replaceWith(wrap);
+      wrap.appendChild(t);
+    });
     panel.classList.remove("hidden");
     word.setAttribute("aria-expanded", "true");
-    $("#hint").textContent = "tap again to fold";
+    hint.textContent = "tap again to fold";
+  }
+
+  const shuffle = () => show(index[randomIndex(index.indexOf(current))]);
+
+  // initial word: widget deep-link is stable, a plain visit is random
+  const start = index.find((e) => e.id === location.hash.slice(1));
+  show(start || index[randomIndex(-1)]);
+  if (new URLSearchParams(location.search).has("open")) queueMicrotask(reveal);
+
+  // disambiguate single tap (reveal) from double tap (new word)
+  let clickTimer = null;
+  word.addEventListener("click", () => {
+    if (clickTimer) {
+      clearTimeout(clickTimer);
+      clickTimer = null;
+      shuffle();
+    } else {
+      clickTimer = setTimeout(() => {
+        clickTimer = null;
+        reveal();
+      }, 240);
+    }
   });
 })();
