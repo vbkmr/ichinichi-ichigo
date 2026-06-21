@@ -1,9 +1,10 @@
 # 🍓 一日一語 (ichinichi-ichigo)
 
-**One Japanese word a day.** A small daily-vocabulary project built from years of
-class notes: each day the home-screen widget and the website show the *same* word,
-chosen deterministically so they always agree. Tap the word to reveal a full
-breakdown — meaning, kanji, nuance, and example sentences.
+**One Japanese word at a time.** A small vocabulary project built from years of
+class notes. A home-screen widget shows a word (a fresh one on each refresh); tap
+it to open the website on that exact word. On the site, tap the word to reveal a
+full breakdown — meaning, kanji, nuance, and example sentences — and refresh or
+double-tap for a new one.
 
 🔗 **Live site:** https://vbkmr.github.io/ichinichi-ichigo
 
@@ -32,7 +33,7 @@ marketplace), which was used to write and format the explanations shown here.
 2. New script → paste `widget/ichinichi-ichigo.js` → name it `一日一語`.
 3. Long-press the home screen → **+** → **Scriptable** → choose a size.
 4. Edit the widget: **Script** → `一日一語`; **When Interacting** → **Open URL**.
-5. Tap the widget any day to open the site on that day's word.
+5. Tap the widget to open the site on the word it's showing.
 
 ## Privacy
 
