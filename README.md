@@ -30,7 +30,7 @@ marketplace), which was used to write and format the explanations shown here.
 ## Set up the iPhone widget
 
 1. Install **[Scriptable](https://scriptable.app/)**.
-2. New script → paste `widget/ichinichi-ichigo.js` → name it `一日一語`.
+2. New script → paste [`widget/ichinichi-ichigo.js`](widget/ichinichi-ichigo.js) → name it `一日一語`.
 3. Long-press the home screen → **+** → **Scriptable** → choose a size.
 4. Edit the widget: **Script** → `一日一語`; **When Interacting** → **Open URL**.
 5. Tap the widget any day to open the site on that day's word.
