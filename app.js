@@ -73,7 +73,12 @@ const CARD_LINKS = [
       }
     }
     const w = full.find((e) => e.id === current.id);
-    panel.innerHTML = marked.parse(w?.explanation || "*まだ説明がありません。*");
+    // Sanitize the rendered markdown before it touches the DOM. The data is
+    // author-written today, but this keeps a stray <script>/onerror out of
+    // innerHTML if the dataset ever ingests anything not hand-written.
+    panel.innerHTML = DOMPurify.sanitize(
+      marked.parse(w?.explanation || "*まだ説明がありません。*"),
+    );
     // wrap tables so wide ones scroll inside the card instead of widening the page
     panel.querySelectorAll("table").forEach((t) => {
       const wrap = document.createElement("div");
