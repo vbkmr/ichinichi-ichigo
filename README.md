@@ -12,7 +12,7 @@ explore another word.
 
 | Home-screen widget                       | Website                     | Tap to reveal                       |
 | ---------------------------------------- | --------------------------- | ----------------------------------- |
-| ![Home-screen widget](assets/widget.png) | ![Website](assets/site.png) | ![Revealed](assets/site-open.png)   |
+| <img width="1290" height="868" alt="image" src="https://github.com/user-attachments/assets/382671c1-82cc-43bb-9212-b0630c19a6cb" /> | ![Website](assets/site.png) | ![Revealed](assets/site-open.png)   |
 
 > `assets/site.png` / `assets/site-open.png` are captured from the site.
 > `assets/widget.png` must come from a real iPhone home screen — drop your
