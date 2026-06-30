@@ -18,6 +18,12 @@
     "meaning": "farming and fishing villages; rural communities engaged in agriculture and fishing (collective term)"
   },
   {
+    "id": "027406c0",
+    "word": "偽装",
+    "reading": "ぎそう, gisou",
+    "meaning": "disguise, camouflage, fabrication, faking (the appearance of something)"
+  },
+  {
     "id": "027ba813",
     "word": "暗闇",
     "reading": "kurayami",
@@ -120,6 +126,12 @@
     "meaning": "employer — the person or organization that hires and pays workers"
   },
   {
+    "id": "175e13f2",
+    "word": "〜っこない",
+    "reading": "kkonai",
+    "meaning": "there's no way (that)…, couldn't possibly…, no chance of …"
+  },
+  {
     "id": "17adfceb",
     "word": "潮干狩り",
     "reading": "shiohigari",
@@ -160,6 +172,12 @@
     "word": "とかく",
     "reading": "tokaku",
     "meaning": "Apt to, tend to, be prone to, in any case, anyhow"
+  },
+  {
+    "id": "198d15ea",
+    "word": "皇帝",
+    "reading": "こうてい, koutei",
+    "meaning": "emperor, sovereign of an empire"
   },
   {
     "id": "1a681e88",
@@ -246,10 +264,22 @@
     "meaning": "poverty, destitution; (figurative) lack, scarcity, paucity"
   },
   {
+    "id": "25e97607",
+    "word": "絶望的な試み",
+    "reading": "ぜつぼうてきなこころみ, zetsubouteki na kokoromi",
+    "meaning": "a hopeless attempt, a desperate endeavor, a futile undertaking"
+  },
+  {
     "id": "26bcd469",
     "word": "対立",
     "reading": "tairitsu",
     "meaning": "Confrontation, opposition, conflict, rivalry"
+  },
+  {
+    "id": "28ff5ffe",
+    "word": "健康",
+    "reading": "けんこう, kenkou",
+    "meaning": "health, healthy, sound (in body)"
   },
   {
     "id": "29a78e39",
@@ -258,10 +288,22 @@
     "meaning": "Before long, soon, eventually, presently, in due course"
   },
   {
+    "id": "2a1fd8af",
+    "word": "手段",
+    "reading": "しゅだん, shudan",
+    "meaning": "means, method, measure, way (of achieving an end)"
+  },
+  {
     "id": "2a2b2397",
     "word": "本来",
     "reading": "honrai",
     "meaning": "Originally, inherently, by nature, properly speaking"
+  },
+  {
+    "id": "2a4cdc1b",
+    "word": "〜なければ…ない",
+    "reading": "nakereba…nai",
+    "meaning": "must, have to; (literally) if one does not…, then it won't (do / be acceptable)"
   },
   {
     "id": "2abf3aee",
@@ -310,6 +352,18 @@
     "word": "筆者",
     "reading": "hissha",
     "meaning": "Writer, author (of this article/text)"
+  },
+  {
+    "id": "2fadf942",
+    "word": "嵩張る",
+    "reading": "かさばる, kasabaru",
+    "meaning": "to be bulky, to take up space, to be cumbersome (in volume)"
+  },
+  {
+    "id": "33653488",
+    "word": "施設",
+    "reading": "しせつ, shisetsu",
+    "meaning": "facility, institution, establishment (a place built for a purpose)"
   },
   {
     "id": "34129b35",
@@ -420,6 +474,12 @@
     "meaning": "foreign currency, foreign exchange; (by extension) foreign capital/earnings"
   },
   {
+    "id": "40cc54c3",
+    "word": "建設",
+    "reading": "けんせつ, kensetsu",
+    "meaning": "construction, building (of structures); building up (figuratively)"
+  },
+  {
     "id": "41d5e0b8",
     "word": "幸福",
     "reading": "kōfuku",
@@ -490,6 +550,12 @@
     "word": "吸収",
     "reading": "kyūshū",
     "meaning": "Absorption, assimilation, take-up"
+  },
+  {
+    "id": "47749fce",
+    "word": "若干",
+    "reading": "じゃっかん, jakkan",
+    "meaning": "somewhat, a little, a few, some (an unspecified small amount or number)"
   },
   {
     "id": "47fd91c8",
@@ -630,6 +696,12 @@
     "meaning": "or, alternatively, either"
   },
   {
+    "id": "674a13a4",
+    "word": "空虚",
+    "reading": "くうきょ, kuukyo",
+    "meaning": "emptiness, hollowness, vacancy, vanity"
+  },
+  {
     "id": "6b14f4a6",
     "word": "金銭",
     "reading": "きんせん, kinsen",
@@ -640,6 +712,12 @@
     "word": "展開",
     "reading": "てんかい",
     "meaning": "development, unfolding, evolution (of events); expansion, deployment, spreading out; also expansion in mathematics (e.g., expanding an expression)"
+  },
+  {
+    "id": "6cef1558",
+    "word": "ぐったり",
+    "reading": "guttari",
+    "meaning": "limp, exhausted, worn out, listless, drained, wilted"
   },
   {
     "id": "6d35f3a6",
@@ -702,6 +780,18 @@
     "meaning": "Both sides, both parties, mutual"
   },
   {
+    "id": "712433e4",
+    "word": "挑む",
+    "reading": "いどむ, idomu",
+    "meaning": "to challenge, to take on, to dare, to defy, to make an attempt at"
+  },
+  {
+    "id": "73eecf6c",
+    "word": "とうてい",
+    "reading": "toutei",
+    "meaning": "(with a negative) by no means, (cannot) possibly, (not) at all"
+  },
+  {
     "id": "74d351d9",
     "word": "生まれながらに",
     "reading": "umarenagara ni",
@@ -730,6 +820,12 @@
     "word": "増し",
     "reading": "mashi",
     "meaning": "Better, preferable, more (comparative)"
+  },
+  {
+    "id": "79905b53",
+    "word": "誇張",
+    "reading": "こちょう, kochou",
+    "meaning": "exaggeration, overstatement, hyperbole"
   },
   {
     "id": "7a4e0885",
@@ -804,6 +900,12 @@
     "meaning": "Drastic decrease, sharp decline, plunge"
   },
   {
+    "id": "85f7aece",
+    "word": "残酷",
+    "reading": "ざんこく, zankoku",
+    "meaning": "cruel, brutal, harsh, merciless"
+  },
+  {
     "id": "86878053",
     "word": "神秘",
     "reading": "しんぴ",
@@ -868,6 +970,12 @@
     "word": "良心",
     "reading": "ryoushin",
     "meaning": "Conscience, moral sense"
+  },
+  {
+    "id": "94b9ce11",
+    "word": "著しい",
+    "reading": "いちじるしい, ichijirushii",
+    "meaning": "remarkable, striking, marked, conspicuous, notable, significant"
   },
   {
     "id": "95987769",
@@ -960,6 +1068,12 @@
     "meaning": "Putting aside rank/formality, informal gathering, \"anything goes\" party"
   },
   {
+    "id": "a2a04fd9",
+    "word": "暴落",
+    "reading": "ぼうらく, bouraku",
+    "meaning": "sharp fall, crash, plunge, slump (in price or value)"
+  },
+  {
     "id": "a2ce746d",
     "word": "暴き出す",
     "reading": "abakidasu",
@@ -976,6 +1090,12 @@
     "word": "ひょっとしたら・もしかしたら〜かもしれない",
     "reading": "hyottoshitara ~ kamoshirenai",
     "meaning": "Perhaps, maybe, possibly, it might be that..."
+  },
+  {
+    "id": "a4f8e6e8",
+    "word": "仰ぐ",
+    "reading": "あおぐ, aogu",
+    "meaning": "to look up (at); to look up to, respect, revere; to ask for / seek (instructions, judgment, aid) from a superior"
   },
   {
     "id": "a6e03337",
@@ -1044,6 +1164,12 @@
     "meaning": "many people, a large crowd, a great number of people"
   },
   {
+    "id": "a9640f92",
+    "word": "補充",
+    "reading": "ほじゅう, hojuu",
+    "meaning": "replenishment, supplementing, restocking, filling a vacancy"
+  },
+  {
     "id": "a96ffe84",
     "word": "野放図",
     "reading": "のほうず",
@@ -1054,6 +1180,12 @@
     "word": "所得",
     "reading": "しょとく, shotoku",
     "meaning": "income, earnings (especially in the formal/taxation sense)"
+  },
+  {
+    "id": "a9aab15d",
+    "word": "支持",
+    "reading": "しじ, shiji",
+    "meaning": "support, backing, endorsement (of a person, idea, or policy)"
   },
   {
     "id": "aa67aa12",
@@ -1122,6 +1254,12 @@
     "meaning": "water and sewage systems; water supply and sewerage (combined infrastructure)"
   },
   {
+    "id": "b3c66bf4",
+    "word": "濁る",
+    "reading": "にごる, nigoru",
+    "meaning": "to become muddy, to become cloudy, to become impure, to grow turbid; (linguistics) to be voiced"
+  },
+  {
     "id": "b4674749",
     "word": "ようが〜まいが",
     "reading": "yō ga ~ mai ga",
@@ -1158,6 +1296,12 @@
     "meaning": "Hateful, detestable, odious"
   },
   {
+    "id": "baf1e4ea",
+    "word": "臨む",
+    "reading": "のぞむ, nozomu",
+    "meaning": "to face, to confront, to attend, to be present at (a situation, exam, ceremony); to look out onto"
+  },
+  {
     "id": "bc549d5d",
     "word": "引力",
     "reading": "inryoku",
@@ -1182,6 +1326,12 @@
     "meaning": "Saving, economy, conservation, thrift"
   },
   {
+    "id": "be332a6c",
+    "word": "めど",
+    "reading": "medo",
+    "meaning": "prospect, outlook, end in sight, target, goal"
+  },
+  {
     "id": "bf1a5da9",
     "word": "資源",
     "reading": "shigen",
@@ -1192,6 +1342,12 @@
     "word": "共同体",
     "reading": "kyōdōtai",
     "meaning": "Community, commune, collective body"
+  },
+  {
+    "id": "c038aa72",
+    "word": "冴える",
+    "reading": "さえる, saeru",
+    "meaning": "to be clear, sharp, vivid, crisp, lucid; (of the mind) to be sharp and alert; (of light/color/sound) to be clear; (of cold) to be biting"
   },
   {
     "id": "c1315d66",
@@ -1308,6 +1464,18 @@
     "meaning": "Exactly alike, identical, spitting image; entirely, completely, all"
   },
   {
+    "id": "d1f6b48d",
+    "word": "気味が悪い",
+    "reading": "きみがわるい, kimi ga warui",
+    "meaning": "creepy, eerie, unsettling, uneasy, gives one the creeps"
+  },
+  {
+    "id": "d2d24c46",
+    "word": "大騒ぎ",
+    "reading": "おおさわぎ, oosawagi",
+    "meaning": "uproar, commotion, fuss, big to-do, racket"
+  },
+  {
     "id": "d36480e2",
     "word": "残虐",
     "reading": "zangyaku",
@@ -1318,6 +1486,12 @@
     "word": "めったに",
     "reading": "滅多に, mettani",
     "meaning": "rarely, seldom, hardly ever (almost always used with a negative verb)"
+  },
+  {
+    "id": "d4ae13c1",
+    "word": "設置",
+    "reading": "せっち, secchi",
+    "meaning": "installation, setting up, establishment (of equipment or a body)"
   },
   {
     "id": "d4cc175f",
@@ -1446,10 +1620,22 @@
     "meaning": "Surely, certainly, for sure, I was sure that..."
   },
   {
+    "id": "edb1a509",
+    "word": "知恵",
+    "reading": "ちえ, chie",
+    "meaning": "wisdom, wit, ingenuity, good sense, practical know-how"
+  },
+  {
     "id": "f02f74fe",
     "word": "液",
     "reading": "eki",
     "meaning": "Liquid, fluid, solution"
+  },
+  {
+    "id": "f0acd7bd",
+    "word": "励ます",
+    "reading": "はげます, hagemasu",
+    "meaning": "to encourage, to cheer up, to console, to urge on"
   },
   {
     "id": "f2231345",
@@ -1540,6 +1726,12 @@
     "word": "おそらく v/s 果たして v/s ひょっとしたら",
     "reading": "ひょっとしたら",
     "meaning": "Probably, most likely, presumably"
+  },
+  {
+    "id": "ff5eaf38",
+    "word": "漂う",
+    "reading": "ただよう, tadayou",
+    "meaning": "to drift, to float, to waft, to hang in the air, to be adrift"
   },
   {
     "id": "ff616d5e",
