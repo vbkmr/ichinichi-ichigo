@@ -12,6 +12,43 @@ const CARD_LINKS = [
   { label: "📖 look up on Jisho", site: "Jisho", url: (w) => `https://jisho.org/search/${encodeURIComponent(w)}` },
 ];
 
+// daily streak — counts the consecutive days the site is opened, kept in
+// localStorage. It extends by one on the next calendar day, and resets to 1
+// after any gap. Computed once on load; the count shows where 第 N 日 used to.
+const STREAK_KEY = "ichigo.streak";
+const todayStr = () => {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+};
+const daysApart = (a, b) =>
+  Math.round((new Date(b + "T00:00:00") - new Date(a + "T00:00:00")) / 86400000);
+const streak = (() => {
+  let s = null;
+  try {
+    s = JSON.parse(localStorage.getItem(STREAK_KEY));
+  } catch {
+    /* ignore — treated as a first visit */
+  }
+  const today = todayStr();
+  if (!s || !s.last) s = { last: today, count: 1 };
+  else {
+    const d = daysApart(s.last, today);
+    if (d === 1) {
+      s.count += 1; // next calendar day — extend the streak
+      s.last = today;
+    } else if (d > 1) {
+      s.count = 1; // missed a day — start over
+      s.last = today;
+    } else s.last = today; // same day (or clock skew) — leave the count
+  }
+  try {
+    localStorage.setItem(STREAK_KEY, JSON.stringify(s));
+  } catch {
+    /* ignore — streak just won't persist */
+  }
+  return s.count;
+})();
+
 (async () => {
   const word = $("#word"),
     panel = $("#panel"),
@@ -55,7 +92,6 @@ const CARD_LINKS = [
     current = entry;
     word.textContent = entry.word;
     reading.textContent = entry.reading || "";
-    meta.textContent = `第 ${index.indexOf(entry) + 1} 日`;
     document.title = `${entry.word} — 🍓 一日一語`;
     fold();
   }
@@ -105,6 +141,9 @@ const CARD_LINKS = [
   }
 
   const shuffle = () => show(index[randomIndex(index.indexOf(current))]);
+
+  // streak is the same all session, so render it once into the meta slot
+  meta.textContent = `🔥 ${streak} 日連続`;
 
   // initial word: widget deep-link is stable, a plain visit is random
   const start = index.find((e) => e.id === location.hash.slice(1));
