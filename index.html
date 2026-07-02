@@ -27,7 +27,9 @@
     />
     <meta name="author" content="vbkmr" />
     <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#0b1430" />
+    <!-- browser chrome follows the kon-iro theme: 鉄紺 on dark, 生成り on light -->
+    <meta name="theme-color" content="#0b1430" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#efe7d3" media="(prefers-color-scheme: light)" />
     <link rel="canonical" href="https://vbkmr.github.io/ichinichi-ichigo/" />
 
     <!-- Open Graph (Facebook, Slack, LinkedIn, etc.) -->
@@ -64,6 +66,8 @@
       href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Shippori+Mincho:wght@500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- kon-iro (紺色) design tokens + light/dark themes; must load before style.css -->
+    <link rel="stylesheet" href="kon-iro.css" />
     <link rel="stylesheet" href="style.css" />
 
     <!-- Google Analytics (GA4). Dormant until a Measurement ID is set in
