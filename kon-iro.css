@@ -1,0 +1,120 @@
+/*!
+ * Vendored from npm: kon-iro@0.1.0 · https://www.npmjs.com/package/kon-iro
+ * Self-hosted (not CDN) so it stays inside the site's strict style-src 'self' CSP.
+ * To update: `npm pack kon-iro` (or download the tarball) and copy dist/kon-iro.css here.
+ *
+ * kon-iro 紺色 — a Japanese-traditional (和色) design theme.
+ * Dark 紺 (indigo) by default; light 和紙 (washi) via [data-theme="washi"]
+ * or the OS preference. Pure CSS custom properties — no build, no framework.
+ *
+ * GENERATED from /tokens by scripts/build.mjs — do not edit by hand.
+ * https://github.com/vbkmr/kon-iro  ·  MIT
+ */
+
+:root {
+  /* ── 和色 palette (raw escape-hatch values) ───────────────── */
+  --kon-wa-kon-deep:     #0b1430; /* 鉄紺 tetsukon */
+  --kon-wa-kon:          #11213f; /* 紺 kon */
+  --kon-wa-kon-panel:    #16274d; /* 紺青 konjō */
+  --kon-wa-kon-line:     #2b3e68; /* 藍墨 aizumi */
+  --kon-wa-neri:         #f0e8d6; /* 練色 neri-iro */
+  --kon-wa-ginnezu:      #a9adb0; /* 銀鼠 ginnezu */
+  --kon-wa-sango:        #f5b1aa; /* 珊瑚色 sango-iro */
+  --kon-wa-yamabuki:     #f8b500; /* 山吹色 yamabuki-iro */
+  --kon-wa-asagi:        #5bb7c0; /* 浅葱色 asagi-iro */
+  --kon-wa-moegi:        #aacf53; /* 萌黄 moegi */
+  --kon-wa-hitan:        #f0937a; /* 退紅 taikō */
+  --kon-wa-washi:        #efe7d3; /* 生成り kinari */
+  --kon-wa-washi-raised: #f7f1e1; /* 白練 shironeri */
+  --kon-wa-washi-line:   #dcd0b4; /* 砂色 suna-iro */
+  --kon-wa-kobicha:      #6a5d21; /* 媚茶 kobicha */
+  --kon-wa-nando:        #1f6f78; /* 納戸色 nando-iro */
+  --kon-wa-chitose:      #316745; /* 千歳緑 chitose-midori */
+  --kon-wa-suo:          #9e3d3f; /* 蘇芳 suō */
+  --kon-wa-nibi:         #5e5d56; /* 鈍色 nibi-iro */
+
+  /* ── type ─────────────────────────────────────────────────── */
+  --kon-font-jp:         "Shippori Mincho", serif;
+  --kon-font-sans:       "Zen Kaku Gothic New", system-ui, sans-serif;
+  --kon-font-mono:       "JetBrains Mono", ui-monospace, monospace;
+  --kon-weight-regular:  400;
+  --kon-weight-medium:   500;
+  --kon-weight-semibold: 600;
+  --kon-weight-bold:     700;
+  --kon-size-display:    clamp(2.5rem, 12vw, 5.5rem);
+  --kon-size-h2:         1.5rem;
+  --kon-size-body:       1.02rem;
+  --kon-size-label:      0.74rem;
+  --kon-size-meta:       0.72rem;
+
+  /* ── space / radius / measure ─────────────────────────────── */
+  --kon-space-0:         0;
+  --kon-space-1:         0.25rem;
+  --kon-space-2:         0.5rem;
+  --kon-space-3:         0.75rem;
+  --kon-space-4:         1rem;
+  --kon-space-5:         1.25rem;
+  --kon-space-6:         1.6rem;
+  --kon-space-8:         2rem;
+  --kon-space-10:        2.4rem;
+  --kon-radius-sm:       10px;
+  --kon-radius-md:       14px;
+  --kon-radius-lg:       26px;
+  --kon-measure-reading: 560px;
+
+  /* ── motion ───────────────────────────────────────────────── */
+  --kon-motion-rise:     550ms;
+  --kon-motion-fade:     400ms;
+  --kon-motion-ease:     cubic-bezier(0.25, 0.1, 0.25, 1);
+
+  /* ── semantic tokens · DARK 紺 (default) ──────────────────── */
+  --kon-bg:              var(--kon-wa-kon-deep);
+  --kon-surface:         var(--kon-wa-kon);
+  --kon-surface-raised:  var(--kon-wa-kon-panel);
+  --kon-line:            var(--kon-wa-kon-line);
+  --kon-text:            var(--kon-wa-neri);
+  --kon-text-muted:      var(--kon-wa-ginnezu);
+  --kon-link:            var(--kon-wa-sango);
+  --kon-accent:          var(--kon-wa-yamabuki);
+  --kon-info:            var(--kon-wa-asagi);
+  --kon-success:         var(--kon-wa-moegi);
+  --kon-warm:            var(--kon-wa-hitan);
+  --kon-focus:           var(--kon-wa-yamabuki);
+  color-scheme: dark;
+}
+
+/* ── semantic tokens · LIGHT 和紙 (washi) ───────────────────── */
+[data-theme="washi"] {
+  --kon-bg:              var(--kon-wa-washi);
+  --kon-surface:         var(--kon-wa-washi-raised);
+  --kon-surface-raised:  #fdfaf1;
+  --kon-line:            var(--kon-wa-washi-line);
+  --kon-text:            var(--kon-wa-kon-deep);
+  --kon-text-muted:      var(--kon-wa-nibi);
+  --kon-link:            var(--kon-wa-suo);
+  --kon-accent:          var(--kon-wa-kobicha);
+  --kon-info:            var(--kon-wa-nando);
+  --kon-success:         var(--kon-wa-chitose);
+  --kon-warm:            var(--kon-wa-suo);
+  --kon-focus:           var(--kon-wa-kobicha);
+  color-scheme: light;
+}
+
+/* follow the OS when no explicit theme is set */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="kon"]):not([data-theme="washi"]) {
+    --kon-bg:              var(--kon-wa-washi);
+    --kon-surface:         var(--kon-wa-washi-raised);
+    --kon-surface-raised:  #fdfaf1;
+    --kon-line:            var(--kon-wa-washi-line);
+    --kon-text:            var(--kon-wa-kon-deep);
+    --kon-text-muted:      var(--kon-wa-nibi);
+    --kon-link:            var(--kon-wa-suo);
+    --kon-accent:          var(--kon-wa-kobicha);
+    --kon-info:            var(--kon-wa-nando);
+    --kon-success:         var(--kon-wa-chitose);
+    --kon-warm:            var(--kon-wa-suo);
+    --kon-focus:           var(--kon-wa-kobicha);
+    color-scheme: light;
+  }
+}
